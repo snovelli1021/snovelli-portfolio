@@ -39,7 +39,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Deployment
 
-This app was deployed using the Heroku Buildpack for Node.js found here: []()
+This app was deployed using the Heroku Buildpack for Node.js found here: [https://snovelli-portfolio.herokuapp.com/](https://snovelli-portfolio.herokuapp.com/)
 
 
 ## Accreditations:
