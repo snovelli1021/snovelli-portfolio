@@ -1,0 +1,22 @@
+.bi-info-square-fill {
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: blueviolet;
+}
+
+.bi:hover {
+  cursor: pointer;
+}
+
+.profileLinks {
+  list-style: none;
+}
+
+li a {
+  color: blue;
+}
+
+li a:hover {
+  color: red;
+}
