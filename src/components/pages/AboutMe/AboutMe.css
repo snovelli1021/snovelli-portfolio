@@ -1,3 +1,10 @@
+.bioCard {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  border-color: black;
+}
+
 #bioPhoto {
   height: 285px;
   width: 245px;
@@ -7,26 +14,46 @@
   border-radius: 20px;
 }
 
-.contentCard {
+.workCard {
   margin-left: auto;
   margin-right: auto;
   border-radius: 30px;
   border-color: black;
 }
 
-.btnGroup {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 12px;
-  margin-left: 35px;
-  margin-right: 35px;
+.workPhoto {
+  height: 285px;
+  width: 245px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border-radius: 20px;
 }
 
-#bioBtn {
-  height: 24px;
-  width: 24px;
-  border-radius: 3px;
+.eduCard {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  border-color: black;
 }
+
+.eduPhoto {
+  height: 285px;
+  width: 245px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+.active.carouselItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .carousel-indicators {
+  background-color: blueviolet;
+} */
 
 #workBtn {
   height: 24px;
@@ -38,4 +65,12 @@
   height: 24px;
   width: 24px;
   border-radius: 3px;
+}
+
+.carousel-control-next-icon {
+  background-color: blueviolet;
+}
+
+.carousel-control-prev-icon {
+  background-color: blueviolet;
 }
