@@ -7,7 +7,6 @@ import AboutMe from "./components/pages/AboutMe/AboutMe.js";
 import Projects from "./components/pages/Projects/Projects.js";
 import Resume from "./components/pages/Resume/Resume.js";
 import Contact from "./components/pages/Contact/Contact.js";
-import Sidebar from "./components/Sidebar/Sidebar.js";
 // import Footer from "./components/Footer/Footer.js";
 
 function App() {
@@ -15,8 +14,8 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <Sidebar />
+      {<Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />}
+
       {currentPage === "Home" && <Home />}
       {currentPage === "AboutMe" && <AboutMe />}
       {currentPage === "Projects" && <Projects />}

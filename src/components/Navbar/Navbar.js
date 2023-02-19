@@ -2,10 +2,12 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Sidebar from "../Sidebar/Sidebar";
 
 function NavHeader({ setCurrentPage }) {
   return (
     <Navbar bg="light" expand="lg">
+      {<Sidebar />}
       <Container>
         <Navbar.Brand href="#Home">Stephen Novelli Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
