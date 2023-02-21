@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import "./AboutMe.css";
@@ -9,14 +9,16 @@ import eduData from "./eduData.json";
 const AboutMe = () => {
   return (
     // Need to style page and cards.
+    // Cards in Carousel both show at the same time, and overlap on small screen sizes.
+    // I have to look at Carousel options for a solution, or remove Carousel and render plain cards?
 
     <div>
       <h1>About Me</h1>
 
-      <Carousel interval={null}>
+      <Carousel slide={false} interval={null}>
         <Carousel.Item interval={null} className="carouselItem">
           {bioData.map(({ id, bioPhoto, bioTitle, bioText }) => (
-            <Card key={id} className="bioCard" style={{ width: "18rem" }}>
+            <Card key={id} className="bioCard" style={{ width: "20rem" }}>
               <Card.Img
                 variant="top"
                 src={bioPhoto}
@@ -36,7 +38,7 @@ const AboutMe = () => {
         <Carousel.Item interval={null} className="carouselItem">
           {workData.map(
             ({ id, workPhoto, workTitle, workText, workFooter }) => (
-              <Card key={id} className="workCard" style={{ width: "18rem" }}>
+              <Card key={id} className="workCard" style={{ width: "20rem" }}>
                 <Card.Img
                   variant="top"
                   src={workPhoto}
@@ -57,7 +59,7 @@ const AboutMe = () => {
 
         <Carousel.Item interval={null} className="carouselItem">
           {eduData.map(({ id, eduPhoto, eduTitle, eduText, eduFooter }) => (
-            <Card key={id} className="workCard" style={{ width: "18rem" }}>
+            <Card key={id} className="workCard" style={{ width: "20rem" }}>
               <Card.Img
                 variant="top"
                 src={eduPhoto}

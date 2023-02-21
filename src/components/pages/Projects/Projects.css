@@ -1,0 +1,27 @@
+.g-4 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.prjCard {
+  border-radius: 30px;
+  border-color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.cardPhoto {
+  /* Need to adjust top margin */
+  height: 280px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+.prjButton {
+  background-color: blueviolet;
+}

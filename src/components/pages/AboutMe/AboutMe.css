@@ -6,8 +6,9 @@
 }
 
 #bioPhoto {
-  height: 285px;
-  width: 245px;
+  /* Need to adjust top margin */
+  height: 280px;
+  width: 250px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
@@ -22,8 +23,9 @@
 }
 
 .workPhoto {
-  height: 285px;
-  width: 245px;
+  /* Need to adjust top margin */
+  height: 280px;
+  width: 250px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
@@ -38,8 +40,9 @@
 }
 
 .eduPhoto {
-  height: 285px;
-  width: 245px;
+  /* Need to adjust top margin */
+  height: 280px;
+  width: 250px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
