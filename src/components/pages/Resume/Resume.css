@@ -1,0 +1,39 @@
+.resumeCard {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  border-color: black;
+}
+
+.downloadIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#msWordBtn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 80px;
+  height: 80px;
+  padding: 2%;
+  background: url("./assets/WordIcon.png");
+  cursor: pointer;
+  background-size: contain;
+  border: none;
+  border-radius: 0%;
+  background-repeat: no-repeat;
+}
+
+#adobeBtn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 80px;
+  height: 80px;
+  padding: 2%;
+  background: url("./assets/AdobeIcon.png");
+  cursor: pointer;
+  background-size: contain;
+  border: none;
+  border-radius: 0%;
+  background-repeat: no-repeat;
+}
