@@ -6,6 +6,11 @@ import "./Contact.css";
 
 // Need to validate form and style.
 
+//Adding citation for YouTube video I used to build form
+
+//Chaoo Charles. (March 23, 2022). React: Send email from contact form without server code - Email.js Tutorial
+//[Video]. YouTube. https://www.youtube.com/watch?v=bMq2riFCF90
+
 const Contact = () => {
   const form = useRef();
 

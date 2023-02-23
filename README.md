@@ -43,3 +43,6 @@ This app was deployed using the Heroku Buildpack for Node.js found here: [https:
 
 
 ## Accreditations:
+A special thank you to Chaoo Charles who recorded an awesome explanation of using emailJS to create a contact form that sends results to email. 
+
+"Chaoo Charles. (March 23, 2022). *React: Send email from contact form without server code - Email.js Tutorial* [[Video]](https://www.youtube.com/watch?v=bMq2riFCF90). YouTube. https://www.youtube.com/watch?v=bMq2riFCF90"
