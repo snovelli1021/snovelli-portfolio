@@ -1,0 +1,39 @@
+.contactForm {
+  border-style: solid;
+  border-radius: 30px;
+  border-color: black;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mb-3 {
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+#messageInput {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 2%;
+  display: flex;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 2%;
+  text-align: top;
+  word-wrap: break-word;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#formBtn {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: blueviolet;
+}
