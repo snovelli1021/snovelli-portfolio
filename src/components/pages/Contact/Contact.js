@@ -1,10 +1,10 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "./Contact.css";
 
-// Need to validate form and style.
+// Need to style.
 
 //Adding citation for YouTube video I used to build form
 
@@ -12,9 +12,28 @@ import "./Contact.css";
 //[Video]. YouTube. https://www.youtube.com/watch?v=bMq2riFCF90
 
 const Contact = () => {
+  const [values, setValues] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  console.log(values);
+
+  const set = (name) => {
+    return ({ target: { value } }) => {
+      setValues((oldValues) => ({ ...oldValues, [name]: value }));
+    };
+  };
+
   const form = useRef();
 
   const sendEmail = (e) => {
+    setValues({
+      name: "",
+      email: "",
+      message: "",
+    });
     e.preventDefault();
 
     emailjs
@@ -28,7 +47,7 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log("Message sent!");
-          e.target.reset();
+          alert("Message sent!");
         },
         (error) => {
           console.log(error.text);
@@ -45,17 +64,25 @@ const Contact = () => {
     >
       <Form.Label>Name</Form.Label>
       <input
+        required
         className="mb-3"
+        maxLength={50}
         placeholder="First and last name"
         type="text"
         name="user_name"
+        value={values.name}
+        onChange={set("name")}
       />
       <Form.Label>Email</Form.Label>
       <input
+        required
         className="mb-3"
+        maxLength={50}
         placeholder="example@email.com"
         type="email"
         name="user_email"
+        value={values.email}
+        onChange={set("email")}
       />
       <div>
         <Form.Text className="text-muted">
@@ -64,15 +91,23 @@ const Contact = () => {
       </div>
       <Form.Label>Message</Form.Label>
       <textarea
+        required
         id="messageInput"
         maxLength={500}
         placeholder="Type your message here."
         name="message"
+        value={values.message}
+        onChange={set("message")}
       />
       <div>
         <Form.Text className="text-muted">Maximum 500 characters.</Form.Text>
       </div>
-      <Button id="formBtn" variant="primary" type="submit">
+      <Button
+        onChange={set("name", "email", "message")}
+        id="formBtn"
+        variant="primary"
+        type="submit"
+      >
         Submit!
       </Button>
     </Form>
