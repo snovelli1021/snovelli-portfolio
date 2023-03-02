@@ -9,7 +9,6 @@ const Projects = () => {
     // Need to style page and cards.
 
     <div>
-      <h1>Projects</h1>
       <h3>Coding Bootcamp</h3>
       <Row xs={1} className="g-4">
         {data.map(({ id, prjPhoto, prjTitle, prjText, prjUrl }) => (

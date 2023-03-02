@@ -1,28 +1,28 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Home from "./components/pages/Home/Home.js";
-import AboutMe from "./components/pages/AboutMe/AboutMe.js";
-import Projects from "./components/pages/Projects/Projects.js";
-import Resume from "./components/pages/Resume/Resume.js";
-import Contact from "./components/pages/Contact/Contact.js";
+import AboutMe from "./components/AboutMe/AboutMe.js";
+import Projects from "./components/Projects/Projects.js";
+import Resume from "./components/Resume/Resume.js";
+import Contact from "./components/Contact/Contact.js";
 // import Footer from "./components/Footer/Footer.js";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("Home");
-
   return (
     <div className="App">
-      {<Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />}
+      {<Navbar />}
 
-      {currentPage === "Home" && <Home />}
-      {currentPage === "AboutMe" && <AboutMe />}
-      {currentPage === "Projects" && <Projects />}
-      {currentPage === "Resume" && <Resume />}
-      {currentPage === "Contact" && <Contact />}
-
-      {/* <Footer /> */}
+      <div>
+        <h2>About Me</h2>
+        <div id="AboutMe">{<AboutMe />}</div>
+        <h2>Projects</h2>
+        <div id="Projects">{<Projects />}</div>
+        <h2>Resume</h2>
+        <div id="Resume">{<Resume />}</div>
+        <h2>Contact</h2>
+        <div id="Contact"> {<Contact />}</div>
+      </div>
     </div>
   );
 }

@@ -13,8 +13,6 @@ const AboutMe = () => {
     // I have to look at Carousel options for a solution, or remove Carousel and render plain cards?
 
     <div>
-      <h1>About Me</h1>
-
       <Carousel slide={false} interval={null}>
         <Carousel.Item interval={null} className="carouselItem">
           {bioData.map(({ id, bioPhoto, bioTitle, bioText }) => (

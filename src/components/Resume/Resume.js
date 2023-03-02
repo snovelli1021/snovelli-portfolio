@@ -8,7 +8,6 @@ const Resume = () => {
     // Need to style page, and come up with text/images to fill white space.
 
     <div>
-      <h1>Resume</h1>
       <Card className="resumeCard" style={{ width: "20rem" }}>
         <Card.Body>
           <Card.Title>Resume</Card.Title>

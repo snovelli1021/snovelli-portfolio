@@ -4,47 +4,20 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Sidebar from "../Sidebar/Sidebar";
 
-function NavHeader({ setCurrentPage }) {
+function NavHeader() {
   return (
     <Navbar bg="light" expand="lg">
       {<Sidebar />}
       <Container>
-        <Navbar.Brand href="#Home">Stephen Novelli Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#Home">Welcome</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link onClick={() => setCurrentPage("Home")} href="#Home">
-              Home
-            </Nav.Link>
-            <NavDropdown title="Pages" id="basic-nav-dropdown">
-              <NavDropdown.Item
-                onClick={() => setCurrentPage("AboutMe")}
-                href="#AboutMe"
-              >
-                About Me
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                onClick={() => setCurrentPage("Projects")}
-                href="#Projects"
-              >
-                Projects
-              </NavDropdown.Item>
-              {/*           Add ArcGIS Storymap examples to this page?
-              <NavDropdown.Item href="#WorkExamples">Work Examples</NavDropdown.Item> */}
-              <NavDropdown.Item
-                onClick={() => setCurrentPage("Resume")}
-                href="#Resume"
-              >
-                Resume
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item
-                onClick={() => setCurrentPage("Contact")}
-                href="#Contact"
-              >
-                Contact
-              </NavDropdown.Item>
-            </NavDropdown>
+          <Nav>
+            <Nav.Link href="#AboutMe"> About Me</Nav.Link>
+            <Nav.Link href="#Projects">Projects</Nav.Link>
+            <Nav.Link href="#Resume">Resume</Nav.Link>
+            <NavDropdown.Divider />
+            <Nav.Link href="#Contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -53,3 +26,7 @@ function NavHeader({ setCurrentPage }) {
 }
 
 export default NavHeader;
+{
+  /*           Add ArcGIS Storymap examples to this page?
+              <Nav.Link href="#WorkExamples">Work Examples</Nav.Link> */
+}
