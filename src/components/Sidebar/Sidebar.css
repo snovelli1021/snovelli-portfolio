@@ -1,8 +1,8 @@
-.bi-info-square-fill {
+.bi.bi-info-square-fill {
+  color: white;
   float: left;
   margin-left: 5px;
   margin-top: 5px;
-  color: blueviolet;
 }
 
 .bi:hover {

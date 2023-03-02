@@ -1,0 +1,36 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1100;
+  background-color: #282c34;
+}
+
+#title {
+  color: white;
+  font-size: 28px;
+}
+.navLinks {
+  color: #4b749f;
+}
+
+.navLinks.nav-link.active {
+  background-color: blueviolet;
+  color: white;
+}
+
+.navLinks {
+  color: #4b749f;
+}
+
+.navLinks:visited {
+  color: #4b749f;
+}
+
+.navLinks:hover {
+  color: #4b749f;
+}
+
+.navLinks:active {
+  color: #4b749f;
+}

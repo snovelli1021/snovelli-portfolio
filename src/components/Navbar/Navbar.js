@@ -1,23 +1,32 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Sidebar from "../Sidebar/Sidebar";
+import "./Navbar.css";
 
 function NavHeader() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="navbar" expand="lg">
       {<Sidebar />}
       <Container>
-        <Navbar.Brand href="#Home">Welcome</Navbar.Brand>
+        <Navbar.Brand id="title" href="#top">
+          Welcome!
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="#AboutMe"> About Me</Nav.Link>
-            <Nav.Link href="#Projects">Projects</Nav.Link>
-            <Nav.Link href="#Resume">Resume</Nav.Link>
-            <NavDropdown.Divider />
-            <Nav.Link href="#Contact">Contact</Nav.Link>
+            <Nav.Link className="navLinks" href="#AboutMe">
+              About Me
+            </Nav.Link>
+            <Nav.Link className="navLinks" href="#Projects">
+              Projects
+            </Nav.Link>
+            <Nav.Link className="navLinks" href="#Resume">
+              Resume
+            </Nav.Link>
+            <Nav.Link className="navLinks" href="#Contact">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
