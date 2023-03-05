@@ -1,42 +1,37 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Carousel from "react-bootstrap/Carousel";
 import "./AboutMe.css";
 import bioData from "./bioData.json";
 import workData from "./workData.json";
 import eduData from "./eduData.json";
+import Col from "react-bootstrap/Row";
 
 const AboutMe = () => {
   return (
-    // Need to style page and cards.
-    // Cards in Carousel both show at the same time, and overlap on small screen sizes.
-    // I have to look at Carousel options for a solution, or remove Carousel and render plain cards?
-
     <div>
-      <Carousel slide={false} interval={null}>
-        <Carousel.Item interval={null} className="carouselItem">
-          {bioData.map(({ id, bioPhoto, bioTitle, bioText }) => (
-            <Card key={id} className="bioCard" style={{ width: "20rem" }}>
-              <Card.Img
-                variant="top"
-                src={bioPhoto}
-                id="bioPhoto"
-                alt="Profile Picture of Stephen Novelli"
-              />
-              <Card.Body>
-                <Card.Title>{bioTitle}</Card.Title>
-                <Card.Text>{bioText}</Card.Text>
-              </Card.Body>
-            </Card>
-          ))}
-        </Carousel.Item>
+      {/* Personal Bio section that returns cards for my educational experience. Renders information from "./bioData.json."*/}
+      <div id="bioDiv">
+        {bioData.map(({ id, bioPhoto, bioTitle, bioText }) => (
+          <Card key={id} className="bioCard">
+            <Card.Img
+              variant="top"
+              src={bioPhoto}
+              alt="Profile Picture of Stephen Novelli"
+            />
+            <Card.Body>
+              <Card.Title>{bioTitle}</Card.Title>
+              <Card.Text>{bioText}</Card.Text>
+            </Card.Body>
+          </Card>
+        ))}
+      </div>
 
-        {/* Need to edit card text. */}
-
-        <Carousel.Item interval={null} className="carouselItem">
+      {/* Work section that returns cards for my work experience. Renders information from "./workData.json". */}
+      <div id="workDiv">
+        <Col xs={1}>
           {workData.map(
             ({ id, workPhoto, workTitle, workText, workFooter }) => (
-              <Card key={id} className="workCard" style={{ width: "20rem" }}>
+              <Card key={id} className="workCard">
                 <Card.Img
                   variant="top"
                   src={workPhoto}
@@ -51,13 +46,14 @@ const AboutMe = () => {
               </Card>
             )
           )}
-        </Carousel.Item>
+        </Col>
+      </div>
 
-        {/* Need to edit card text. */}
-
-        <Carousel.Item interval={null} className="carouselItem">
+      {/* Eductaion section that returns cards for my educational experience. Renders information from "./eduData.json."*/}
+      <div id="eduDiv">
+        <Col xs={1}>
           {eduData.map(({ id, eduPhoto, eduTitle, eduText, eduFooter }) => (
-            <Card key={id} className="workCard" style={{ width: "20rem" }}>
+            <Card key={id} className="workCard">
               <Card.Img
                 variant="top"
                 src={eduPhoto}
@@ -71,8 +67,8 @@ const AboutMe = () => {
               </Card.Body>
             </Card>
           ))}
-        </Carousel.Item>
-      </Carousel>
+        </Col>
+      </div>
     </div>
   );
 };

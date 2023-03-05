@@ -9,7 +9,6 @@ const Projects = () => {
     // Need to style page and cards.
 
     <div>
-      <h3>Coding Bootcamp</h3>
       <Row xs={1} className="g-4">
         {data.map(({ id, prjPhoto, prjTitle, prjText, prjUrl }) => (
           <Card key={id} className="prjCard" style={{ width: "20rem" }}>
@@ -34,8 +33,8 @@ const Projects = () => {
         ))}
       </Row>
       {/* Need to add section for Work Examples.
-      Need to style page and cards. */}
-      <h3>ArcGIS Online</h3>
+      Need to style page and cards.
+      <h3>ArcGIS Online</h3> */}
     </div>
   );
 };

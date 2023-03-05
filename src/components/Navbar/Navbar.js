@@ -5,6 +5,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import "./Navbar.css";
 
 function NavHeader() {
+  // Navbar that links to each page section in App.
   return (
     <Navbar className="navbar" expand="lg">
       {<Sidebar />}
@@ -35,7 +36,3 @@ function NavHeader() {
 }
 
 export default NavHeader;
-{
-  /*           Add ArcGIS Storymap examples to this page?
-              <Nav.Link href="#WorkExamples">Work Examples</Nav.Link> */
-}

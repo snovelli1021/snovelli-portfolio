@@ -1,3 +1,4 @@
+/* Styling for Navbar and it's content. */
 .navbar {
   position: sticky;
   top: 0;
@@ -28,7 +29,7 @@
 }
 
 .navLinks:hover {
-  color: #4b749f;
+  color: white;
 }
 
 .navLinks:active {

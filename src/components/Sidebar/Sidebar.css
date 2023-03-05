@@ -1,3 +1,4 @@
+/* Styling for the Sidebar and links. */
 .bi.bi-info-square-fill {
   color: white;
   float: left;
@@ -9,14 +10,22 @@
   cursor: pointer;
 }
 
-.profileLinks {
+.linkGroup {
   list-style: none;
 }
 
-li a {
-  color: blue;
+.offcanvas-body {
+  background-color: #282c34;
+}
+
+#offcanvas-text {
+  color: white;
+  font-style: italic;
+}
+.profileLinks {
+  color: #4b749f;
 }
 
 li a:hover {
-  color: red;
+  color: white;
 }
