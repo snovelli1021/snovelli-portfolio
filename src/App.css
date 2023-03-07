@@ -6,6 +6,16 @@ h2 {
   color: white;
 }
 
+p {
+  color: white;
+}
+
+.card-title.h5 {
+  color: rgb(246, 178, 5);
+  text-decoration: underline;
+  font-style: italic;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -16,7 +16,6 @@
   margin: 2%;
   height: 110px;
   width: 80px;
-  border-radius: 15px;
 }
 
 /* Styling for workDiv and it's content. */
@@ -42,7 +41,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
-  border-radius: 10x;
+  border-radius: 10px;
 }
 
 /* Styling for eduDiv and it's content. */
@@ -68,5 +67,5 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
-  border-radius: 10px;
+  border-radius: 0px;
 }

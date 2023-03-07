@@ -6,22 +6,37 @@
   justify-content: center;
 }
 
-.prjCard {
-  border-radius: 30px;
-  border-color: black;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.cardPhoto {
-  /* Need to adjust top margin */
-  height: 280px;
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  border-radius: 20px;
+.card-img-top {
+  float: left;
+  margin: 2%;
+  height: 110px;
+  width: 80px;
+  border-radius: 15px;
 }
 
-.prjButton {
+.prjCard {
+  display: inline-block;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+  border: none;
+  justify-content: space-between;
+}
+.prjPhoto {
+  height: 200px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+
+.bi.bi-github {
   background-color: blueviolet;
+  padding: 2%;
+  border-radius: 10%;
+  border: solid;
+  border-color: white;
+  border-width: 2px;
 }
