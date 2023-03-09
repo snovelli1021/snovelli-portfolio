@@ -1,3 +1,5 @@
+/* Styles for project cards and GitHub Buttons. */
+
 .g-4 {
   display: flex;
   justify-content: space-between;
@@ -15,7 +17,7 @@
 }
 
 .prjCard {
-  display: inline-block;
+  display: flex;
   width: 45%;
   margin-left: auto;
   margin-right: auto;
@@ -32,11 +34,12 @@
   border-radius: 10px;
 }
 
-.bi.bi-github {
-  background-color: blueviolet;
+.btn.btn-primary {
+  background-color: rgb(42, 6, 6);
   padding: 2%;
   border-radius: 10%;
   border: solid;
   border-color: white;
   border-width: 2px;
+  --bs-btn-color: white;
 }

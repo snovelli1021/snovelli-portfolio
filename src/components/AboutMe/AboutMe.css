@@ -1,59 +1,47 @@
 /* Styling for bioDiv and it's content. */
-#bioDiv {
-  display: flex;
-  display: inline-block;
-}
 
 .bioCard {
   display: inline-block;
   width: 50%;
-  margin-right: 90%;
+  margin-right: 98%;
   background: none;
   border: none;
-}
-.card-img-top {
-  float: left;
-  margin: 2%;
-  height: 110px;
-  width: 80px;
 }
 
 /* Styling for workDiv and it's content. */
+
 #workDiv {
-  display: inline-block;
+  display: flex;
+  float: left;
   width: 100%;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .workCard {
-  display: inline-block;
-  width: 45%;
+  display: flex;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   background: none;
   border: none;
   justify-content: space-between;
-}
-
-.workPhoto {
-  height: 160px;
-  width: 140px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2%;
-  border-radius: 10px;
 }
 
 /* Styling for eduDiv and it's content. */
 #eduDiv {
-  display: inline-block;
+  display: flex;
+  float: left;
   width: 100%;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .eduCard {
-  display: inline-block;
-  width: 45%;
+  display: flex;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   background: none;
@@ -61,11 +49,11 @@
   justify-content: space-between;
 }
 
-.eduPhoto {
-  height: 160px;
-  width: 140px;
+.contentCol {
+  display: flex;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
-  border-radius: 0px;
+  justify-content: center;
+  width: 60%;
 }

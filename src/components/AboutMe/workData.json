@@ -1,2 +1,2 @@
-[{"id": 1, "workTitle": "City of Everett" , "workText": "Utility Mapping team lead for converting Classic Story Maps to ArcGIS StoryMaps.", "workPhoto": "./assets/EverettLogo.jpg", "workFooter": "August 2021 - Present" },
-{"id": 2, "workTitle": "Dominion Energy" , "workText": "Supervised data QC within the Utility Network and maintained data in System Tier Subnetworks.", "workPhoto": "./assets/DominionEnergy.jpg", "workFooter": "November 2015 - August 2021" }]
+[{"id": 1, "workTitle": "City of Everett" , "workText": "Utility Mapping team lead for converting Classic Story Maps to ArcGIS StoryMaps.",  "workFooter": "August 2021 - Present" },
+{"id": 2, "workTitle": "Dominion Energy" , "workText": "Supervised data QC within the Utility Network and maintained data in System Tier Subnetworks.", "workFooter": "November 2015 - August 2021" }]

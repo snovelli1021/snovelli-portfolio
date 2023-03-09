@@ -6,6 +6,17 @@
   margin-top: 5px;
 }
 
+.bi-info-square-fill:hover {
+  color: rgb(42, 6, 6);
+}
+
+#sidebarImg {
+  background-image: url("../../../public/assets/SidebarImage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .bi:hover {
   cursor: pointer;
 }
@@ -14,16 +25,12 @@
   list-style: none;
 }
 
-.offcanvas-body {
-  background-color: #282c34;
-}
-
 #offcanvas-text {
   color: white;
   font-style: italic;
 }
 .profileLinks {
-  color: #4b749f;
+  color: rgb(42, 6, 6);
 }
 
 li a:hover {

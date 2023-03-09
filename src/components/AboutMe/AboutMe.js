@@ -4,7 +4,7 @@ import "./AboutMe.css";
 import bioData from "./bioData.json";
 import workData from "./workData.json";
 import eduData from "./eduData.json";
-import Col from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const AboutMe = () => {
   return (
@@ -27,43 +27,31 @@ const AboutMe = () => {
       </div>
 
       {/* Work section that returns cards for my work experience. Renders information from "./workData.json". */}
+      <h3>Work Experience</h3>
       <div id="workDiv">
-        <Col xs={1}>
-          {workData.map(
-            ({ id, workPhoto, workTitle, workText, workFooter }) => (
-              <Card key={id} className="workCard">
-                <Card.Img
-                  variant="top"
-                  src={workPhoto}
-                  className="workPhoto"
-                  alt="Screenshots of company logos of previsous and current employers"
-                />
-                <Card.Body>
-                  <Card.Title>{workTitle}</Card.Title>
-                  <Card.Text>{workText}</Card.Text>
-                  <p>{workFooter}</p>
-                </Card.Body>
-              </Card>
-            )
-          )}
+        <Col xs={1} className="contentCol">
+          {workData.map(({ id, workTitle, workText, workFooter }) => (
+            <Card key={id} className="workCard">
+              <Card.Body>
+                <Card.Title>{workTitle}</Card.Title>
+                <Card.Text>{workText}</Card.Text>
+                <p className="text-muted">{workFooter}</p>
+              </Card.Body>
+            </Card>
+          ))}
         </Col>
       </div>
 
       {/* Eductaion section that returns cards for my educational experience. Renders information from "./eduData.json."*/}
+      <h3>Education</h3>
       <div id="eduDiv">
-        <Col xs={1}>
-          {eduData.map(({ id, eduPhoto, eduTitle, eduText, eduFooter }) => (
+        <Col xs={1} className="contentCol">
+          {eduData.map(({ id, eduTitle, eduText, eduFooter }) => (
             <Card key={id} className="workCard">
-              <Card.Img
-                variant="top"
-                src={eduPhoto}
-                className="eduPhoto"
-                alt="Screenshots of company logos of previsous and educational institutions"
-              />
               <Card.Body>
                 <Card.Title>{eduTitle}</Card.Title>
                 <Card.Text>{eduText}</Card.Text>
-                <p>{eduFooter}</p>
+                <p className="text-muted">{eduFooter}</p>
               </Card.Body>
             </Card>
           ))}

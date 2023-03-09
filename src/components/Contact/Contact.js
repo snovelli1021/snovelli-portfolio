@@ -56,9 +56,10 @@ const Contact = () => {
   };
 
   return (
+    // Contact form that validates and alerts input.
     <Form
       className="contactForm"
-      style={{ width: "20rem" }}
+      style={{ width: "22rem" }}
       ref={form}
       onSubmit={sendEmail}
     >

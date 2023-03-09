@@ -1,10 +1,19 @@
+.resumeDiv {
+  /* float: right; */
+}
 .resumeCard {
+  display: inline-block;
+  width: 45%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 30px;
-  border-color: black;
+  background: none;
+  border: none;
+  justify-content: space-between;
 }
-
+#cardText {
+  background-color: rgb(42, 6, 6);
+  padding: 2%;
+}
 .downloadIcons {
   display: flex;
   justify-content: space-between;

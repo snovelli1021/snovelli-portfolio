@@ -14,13 +14,13 @@ function App() {
       {<Navbar />}
 
       <div>
-        <h2>About Me</h2>
+        <h2>Some Information About Me</h2>
         <div id="AboutMe">{<AboutMe />}</div>
-        <h2>Projects</h2>
+        <h2>Projects I Created</h2>
         <div id="Projects">{<Projects />}</div>
-        <h2>Resume</h2>
+        <h2>View My Qualifications</h2>
         <div id="Resume">{<Resume />}</div>
-        <h2>Contact</h2>
+        <h2>Get In Touch</h2>
         <div id="Contact"> {<Contact />}</div>
       </div>
     </div>
