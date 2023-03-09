@@ -6,6 +6,8 @@ import "./Navbar.css";
 
 function NavHeader() {
   // Navbar that links to each page section in App.
+
+  // Need to work on Navbar and Sidebar functionality. Close on click and disappear on hover.
   return (
     <Navbar className="navbar" expand="lg">
       {<Sidebar />}

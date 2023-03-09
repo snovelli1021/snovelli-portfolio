@@ -6,11 +6,19 @@
   z-index: 1100;
   background-color: #282c34;
 }
+.container {
+  width: 90%;
+}
 
 #title {
   color: white;
   font-size: 28px;
 }
+
+#title:hover {
+  color: aquamarine;
+}
+
 .navLinks {
   color: #4b749f;
 }

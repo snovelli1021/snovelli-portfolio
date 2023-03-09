@@ -18,6 +18,12 @@ p {
   color: white;
 }
 
+hr {
+  background-color: aquamarine;
+  width: 20px;
+  z-index: 1100;
+}
+
 .card-title.h5 {
   color: white;
 

@@ -1,9 +1,10 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Footer</h1>
+    <div className="footer" style={{ backgroundColor: "#282c34" }}>
+      © 2023 Copyright: <p>Stephen Novelli 2023</p>
     </div>
   );
 };
