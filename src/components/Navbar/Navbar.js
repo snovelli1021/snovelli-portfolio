@@ -1,16 +1,13 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Sidebar from "../Sidebar/Sidebar";
 import "./Navbar.css";
 
 function NavHeader() {
   // Navbar that links to each page section in App.
 
-  // Need to work on Navbar and Sidebar functionality. Close on click and disappear on hover.
   return (
     <Navbar className="navbar" expand="lg">
-      {<Sidebar />}
       <Container>
         <Navbar.Brand id="title" href="#top">
           Welcome!

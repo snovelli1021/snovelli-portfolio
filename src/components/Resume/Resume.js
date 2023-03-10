@@ -4,8 +4,7 @@ import "./Resume.css";
 
 const Resume = () => {
   return (
-    // Need to finalize resume and add downloadable versions.
-    // Need to style page, and come up with text/images to fill white space.
+    // Resume section shows some qualifications, and provides downloadable versions of my resume.
 
     <div className="resumeDiv">
       <Card className="resumeCard" style={{ width: "20rem" }}>

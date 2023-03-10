@@ -3,7 +3,7 @@ import "./Divider.css";
 
 const Divider = () => {
   return (
-    // Need to finalize Divider
+    // Renders a Divider that separates each section of my app.
 
     <div>
       <hr className="divider" />

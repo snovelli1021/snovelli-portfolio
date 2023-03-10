@@ -4,8 +4,6 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "./Contact.css";
 
-// Need to style.
-
 //Adding citation for YouTube video I used to build form
 
 //Chaoo Charles. (March 23, 2022). React: Send email from contact form without server code - Email.js Tutorial

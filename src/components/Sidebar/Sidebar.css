@@ -1,15 +1,18 @@
 /* Styling for the Sidebar and links. */
 .bi.bi-info-square-fill {
   color: white;
-  float: left;
   margin-left: 5px;
   margin-top: 5px;
+  position: sticky;
 }
 
 .bi-info-square-fill:hover {
   color: rgb(42, 6, 6);
 }
 
+#test {
+  z-index: 1100;
+}
 #sidebarImg {
   background-image: url("../../../public/assets/SidebarImage.jpg");
   background-repeat: no-repeat;

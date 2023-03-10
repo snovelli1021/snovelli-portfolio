@@ -8,12 +8,13 @@ import Resume from "./components/Resume/Resume.js";
 import Contact from "./components/Contact/Contact.js";
 import Footer from "./components/Footer/Footer.js";
 import Divider from "./components/Divider/Divider.js";
+import Sidebar from "./components/Sidebar/Sidebar.js";
 
 function App() {
   return (
     <div className="App">
       {<Navbar />}
-
+      <div className="sidebarInfo">{<Sidebar />}</div>
       <div>
         <h2>Some Information About Me</h2>
         <div id="AboutMe">{<AboutMe />}</div>
