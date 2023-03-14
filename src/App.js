@@ -16,16 +16,20 @@ function App() {
       {<Navbar />}
       <div className="sidebarInfo">{<Sidebar />}</div>
       <div>
-        <h2>Some Information About Me</h2>
+        <h2>Background Information</h2>
+        <br></br>
         <div id="AboutMe">{<AboutMe />}</div>
         {<Divider />}
         <h2>Projects I Created</h2>
+        <br></br>
         <div id="Projects">{<Projects />}</div>
         {<Divider />}
         <h2>View My Qualifications</h2>
+        <br></br>
         <div id="Resume">{<Resume />}</div>
         {<Divider />}
         <h2>Get In Touch</h2>
+        <br></br>
         <div id="Contact"> {<Contact />}</div>
         <div>{<Footer />}</div>
       </div>

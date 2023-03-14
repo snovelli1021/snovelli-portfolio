@@ -6,12 +6,14 @@
 h2 {
   font-family: "Michroma", sans-serif;
   color: rgb(42, 6, 6);
+  text-shadow: 1px 1px rgb(159, 141, 141);
+  font-weight: 900;
 }
 
 h3 {
   font-family: "Michroma", sans-serif;
   color: rgb(42, 6, 6);
-  margin-left: 1%;
+  text-shadow: 1px 1px rgb(159, 141, 141);
 }
 
 p {
@@ -19,14 +21,15 @@ p {
 }
 
 hr {
-  background-color: aquamarine;
   width: 20px;
   z-index: 1100;
 }
 
 .card-title.h5 {
   color: white;
+
   font-style: italic;
+  font-family: "Michroma", sans-serif;
 }
 
 .sidebarInfo {

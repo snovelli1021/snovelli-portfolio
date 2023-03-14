@@ -11,15 +11,15 @@ const AboutMe = () => {
     <div>
       {/* Personal Bio section that returns cards for my educational experience. Renders information from "./bioData.json."*/}
       <div id="bioDiv">
-        {bioData.map(({ id, bioPhoto, bioTitle, bioText }) => (
+        {bioData.map(({ id, bioPhoto, bioText }) => (
           <Card key={id} className="bioCard">
             <Card.Img
               variant="top"
               src={bioPhoto}
               alt="Profile Picture of Stephen Novelli"
+              id="bioPhoto"
             />
             <Card.Body>
-              <Card.Title>{bioTitle}</Card.Title>
               <Card.Text>{bioText}</Card.Text>
             </Card.Body>
           </Card>
@@ -28,6 +28,7 @@ const AboutMe = () => {
 
       {/* Work section that returns cards for my work experience. Renders information from "./workData.json". */}
       <h3>Work Experience</h3>
+      <br></br>
       <div id="workDiv">
         <Col xs={1} className="contentCol">
           {workData.map(({ id, workTitle, workText, workFooter }) => (
@@ -44,10 +45,11 @@ const AboutMe = () => {
 
       {/* Eductaion section that returns cards for my educational experience. Renders information from "./eduData.json."*/}
       <h3>Education</h3>
+      <br></br>
       <div id="eduDiv">
         <Col xs={1} className="contentCol">
           {eduData.map(({ id, eduTitle, eduText, eduFooter }) => (
-            <Card key={id} className="workCard">
+            <Card key={id} className="eduCard">
               <Card.Body>
                 <Card.Title>{eduTitle}</Card.Title>
                 <Card.Text>{eduText}</Card.Text>
