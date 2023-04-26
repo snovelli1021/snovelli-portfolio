@@ -5,19 +5,17 @@
 - [Table of Content](#table-of-content)
   - [Description:](#description)
   - [Installation:](#installation)
-  - [Usage:](#usage)
   - [License:](#license)
   - [Tests:](#tests)
   - [Preview:](#preview)
   - [Deployment](#deployment)
   - [Accreditations:](#accreditations)
 
-   
 ## Description:
-    
+This portfolio was built using React.js and designed with Bootstrap to showcase my web development skills for front end and back end design and implementation. The selected projects are a collection of assignments I created for my coding bootcamp course through the University of Washington Professional and Continuing Education. I have included downloadable copies of my resume and a contact form using emailJS for you to reach out to me. Be sure to check back periodically as I will be continually developing and deploying new content.
+
 ## Installation:
-    
-## Usage:
+If you are using the Node.js runtime environment and want to run this app locally clone the repository and run "*npm run start*" from your command line. If you don't have Node installed or want to access my portfolio live click here: [https://snovelli-portfolio.herokuapp.com/](https://snovelli-portfolio.herokuapp.com/)
 
 
 ## License:
@@ -30,16 +28,16 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [View License](https://www.mit.edu/~amini/LICENSE.md) 
-    
-    
+       
 ## Tests:
-
+No tests are currently required to run this application.
     
 ## Preview:
+![AppScreenshot.jpg](./public/assets/AppScreenshot.jpg)
 
 ## Deployment
 
-This app was deployed using the Heroku Buildpack for Node.js found here: [https://snovelli-portfolio.herokuapp.com/](https://snovelli-portfolio.herokuapp.com/)
+This app was deployed using the Heroku Buildpack for Node.js and can be seen live here: [https://snovelli-portfolio.herokuapp.com/](https://snovelli-portfolio.herokuapp.com/)
 
 
 ## Accreditations:
