@@ -6,7 +6,7 @@ import data from "./prjData.json";
 
 const Projects = () => {
   return (
-    // Cards render with project data and buttons link out to GitHub repo's.
+    // Cards render with data and buttons link out to GitHub repo's for UW Coding Bootcamp projects .
     <div>
       <Row xs={1} className="g-4">
         {data.map(({ id, prjPhoto, prjTitle, prjText, prjUrl }) => (
@@ -47,8 +47,8 @@ const Projects = () => {
           </Card>
         ))}
       </Row>
-      {/* Need to add section for Work Examples or ArcGIS API projects at a later date.
-      Need to style page and cards.
+      {/* Need to add section for personal projects using ArcGIS API or Worke experience story maps. Need to style page and cards.
+      <h3>Personal Projects</h3>
       <h3>ArcGIS Online</h3> */}
     </div>
   );
