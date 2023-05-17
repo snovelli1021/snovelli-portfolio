@@ -47,9 +47,6 @@ const Projects = () => {
           </Card>
         ))}
       </Row>
-      {/* Need to add section for personal projects using ArcGIS API or Worke experience story maps. Need to style page and cards.
-      <h3>Personal Projects</h3>
-      <h3>ArcGIS Online</h3> */}
     </div>
   );
 };

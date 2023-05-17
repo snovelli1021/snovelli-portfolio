@@ -1,0 +1,13 @@
+/* Styles for GIS projects cards and StoryMap Buttons. */
+
+.btn.btn-primaryGIS {
+  background-color: rgb(42, 6, 6);
+  padding: 2%;
+  border-radius: 10%;
+  border: solid;
+  border-color: white;
+  border-width: 2px;
+  --bs-btn-color: white;
+  width: auto;
+  height: auto;
+}

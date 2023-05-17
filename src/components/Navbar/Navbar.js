@@ -19,7 +19,10 @@ function NavHeader() {
               About Me
             </Nav.Link>
             <Nav.Link className="navLinks" href="#Projects">
-              Projects
+              UW Projects
+            </Nav.Link>
+            <Nav.Link className="navLinks" href="#GISProjects">
+              ArcGIS Storymaps
             </Nav.Link>
             <Nav.Link className="navLinks" href="#Resume">
               Resume

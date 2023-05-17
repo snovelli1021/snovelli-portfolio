@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import AboutMe from "./components/AboutMe/AboutMe.js";
 import Projects from "./components/Projects/Projects.js";
+import GISProjects from "./components/GISProjects/GISProjects.js";
 import Resume from "./components/Resume/Resume.js";
 import Contact from "./components/Contact/Contact.js";
 import Footer from "./components/Footer/Footer.js";
@@ -20,9 +21,17 @@ function App() {
         <br></br>
         <div id="AboutMe">{<AboutMe />}</div>
         {<Divider />}
-        <h2>Projects I Created</h2>
+        {/* Need to add section for personal projects using ArcGIS API
+        and update with new class project data after refactoring.
+        Should consider adjusting image sizes at large scale depending
+        how many projects are rendered. */}
+        <h2>UW Projects I Created</h2>
         <br></br>
         <div id="Projects">{<Projects />}</div>
+        {<Divider />}
+        <h2>ArcGIS StoryMaps</h2>
+        <br></br>
+        <div id="GISProjects">{<GISProjects />}</div>
         {<Divider />}
         <h2>View My Qualifications</h2>
         <br></br>
