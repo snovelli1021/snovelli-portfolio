@@ -18,16 +18,17 @@
 
 .prjCard {
   display: flex;
-  width: 45%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   background: none;
   border: none;
   justify-content: space-between;
 }
+
 .prjPhoto {
-  height: 200px;
-  width: 180px;
+  height: 220px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;

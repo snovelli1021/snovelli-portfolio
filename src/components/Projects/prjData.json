@@ -1,5 +1,13 @@
 [
-{"id": 1, "prjTitle": "Team Profile Generator" , "prjText": "The Team Profile Generator uses Object Oriented Programming to create a class of Employee and subclasses, Engineer, Intern, and Manager. The input value for each team member is validated by a unit test to verify that the value is accepted. Learn more the GitHub Repository at the link below.", "prjPhoto": "./assets/Project1.jpg" , "prjUrl": "https://github.com/snovelli1021/Team-Profile-Generator" },
-{"id": 2, "prjTitle": "Note Taker" , "prjText": "Note Taker is an Express App that features a clean front-end interface that allows a user to add and delete notes from their web browser. The application is deployed live via Heroku and you can find the link and more at the repository below.", "prjPhoto": "./assets/Project2.jpg" , "prjUrl": "https://github.com/snovelli1021/NoteTaker2" },
-{"id": 3, "prjTitle": "Tech Blog" , "prjText": "Tech Blog prompts first time visitors to signup and allows a registered user to create and delete blog posts and add comments if they are signed in. This multiple page application uses Handlebars.js as it's templating engine to render which view to present to the user.", "prjPhoto": "./assets/Project3.jpg" , "prjUrl": "https://github.com/snovelli1021/TechBlog" }
+    {"id": 1,
+    "prjTitle": "Password Generator" ,
+    "prjText": "The Password Generator allows a user to define input options to generate a random password string. The input values must contain between 8 and 24 characters and be made up of at least all lowercase letters, uppercase letters, numbers, special characters, or a combination of any of these four inputs.",
+    "prjPhoto": "./assets/Project1.jpg" ,
+    "prjUrl": "https://github.com/snovelli1021/PasswordGenerator" },
+
+    {"id": 2,
+    "prjTitle": "Tech Blog" ,
+    "prjText": "Tech Blog prompts first time visitors to signup and allows a registered user to create and delete blog posts and add comments if they are signed in. This multiple page application uses Handlebars.js as it's templating engine to render which view to present to the user.",
+    "prjPhoto": "./assets/Project2.jpg" ,
+    "prjUrl": "https://github.com/snovelli1021/TechBlog" }
 ]

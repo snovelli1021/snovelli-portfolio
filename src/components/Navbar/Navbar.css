@@ -7,6 +7,12 @@
   background-color: #282c34;
   margin-bottom: 2%;
 }
+
+/*Styles toggler on smaller screen sizes.*/
+.navbar-toggler-icon {
+  background-color: white;
+}
+
 .container {
   width: 95%;
 }

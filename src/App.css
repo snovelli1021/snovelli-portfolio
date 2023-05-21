@@ -1,3 +1,20 @@
+/*html "scroll-padding" styles are to offset Navbar when a Nav.Link is clicked so it doesn't cover content*/
+html {
+  scroll-padding-top: 140px;
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    scroll-padding-top: 230px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    scroll-padding-top: 330px;
+  }
+}
+
 .App {
   text-align: center;
   background: linear-gradient(180deg, #4b749f 0%, #243748 25%);
@@ -27,7 +44,6 @@ hr {
 
 .card-title.h5 {
   color: white;
-
   font-style: italic;
   font-family: "Michroma", sans-serif;
 }

@@ -11,7 +11,7 @@
 .bioCard {
   display: inline-block;
   word-break: break-word;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   background: none;
@@ -40,7 +40,7 @@
 
 .workCard {
   display: flex;
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   background: none;
@@ -61,7 +61,7 @@
 
 .eduCard {
   display: flex;
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   background: none;

@@ -15,17 +15,17 @@ function App() {
   return (
     <div className="App">
       {<Navbar />}
+
       <div className="sidebarInfo">{<Sidebar />}</div>
       <div>
         <h2>Background Information</h2>
-        <br></br>
         <div id="AboutMe">{<AboutMe />}</div>
         {<Divider />}
         {/* Need to add section for personal projects using ArcGIS API
         and update with new class project data after refactoring.
         Should consider adjusting image sizes at large scale depending
         how many projects are rendered. */}
-        <h2>UW Projects I Created</h2>
+        <h2>UWProjects I Created</h2>
         <br></br>
         <div id="Projects">{<Projects />}</div>
         {<Divider />}
