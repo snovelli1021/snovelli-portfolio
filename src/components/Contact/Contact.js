@@ -88,7 +88,7 @@ const Contact = () => {
           Your information is private and never shared.
         </Form.Text>
       </div>
-      <Form.Label>Message</Form.Label>
+      <Form.Label id="messageLabel">Message</Form.Label>
       <textarea
         required
         id="messageInput"

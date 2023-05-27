@@ -12,10 +12,10 @@
   - [Accreditations:](#accreditations)
 
 ## Description:
-This portfolio was built using React.js and designed with Bootstrap to showcase my web development skills for front end and back end design and implementation. The selected projects are a collection of assignments I created for my coding bootcamp course through the University of Washington Professional and Continuing Education. I have included downloadable copies of my resume and a contact form using emailJS for you to reach out to me. Be sure to check back periodically as I will be continually developing and deploying new content.
+This portfolio was built using React.js and designed with Bootstrap to showcase my web development skills for front end and back end design and implementation. The selected projects are a collection of assignments I created for my coding bootcamp course through the University of Washington Professional and Continuing Education. I have included downloadable copies of my resume and a contact form using emailJS for you to reach out to me. Be sure to check back periodically as I will be continually developing and deploying new content from my professional and personal life.
 
 ## Installation:
-If you are using the Node.js runtime environment and want to run this app locally clone the repository and run "*npm run start*" from your command line. If you don't have Node installed or want to access my portfolio live click here: [https://snovelli-portfolio.herokuapp.com/](https://snovelli-portfolio.herokuapp.com/)
+If you are using the Node.js runtime environment and want to run this app locally clone the repository and run "*npm run start*" from your command line. If you don't have Node installed or want to access my portfolio live click [here.](https://snovelli-portfolio.herokuapp.com/)
 
 
 ## License:
@@ -37,7 +37,7 @@ No tests are currently required to run this application.
 
 ## Deployment
 
-This app was deployed using the Heroku Buildpack for Node.js and can be seen live here: [https://snovelli-portfolio.herokuapp.com/](https://snovelli-portfolio.herokuapp.com/)
+This app was deployed using the Heroku Buildpack for Node.js and can be seen live [here.](https://snovelli-portfolio.herokuapp.com/)
 
 
 ## Accreditations:

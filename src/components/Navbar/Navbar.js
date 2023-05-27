@@ -37,7 +37,7 @@ function NavHeader() {
               href="#GISProjects"
               onClick={closeNav}
             >
-              ArcGIS Storymaps
+              ArcGIS StoryMaps
             </Nav.Link>
             <Nav.Link className="navLinks" href="#Resume" onClick={closeNav}>
               Resume

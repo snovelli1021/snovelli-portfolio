@@ -30,11 +30,11 @@
 }
 
 #title:hover {
-  color: #4b749f;
+  color: #acc9e8;
 }
 
 .navLinks {
-  color: #4b749f;
+  color: #acc9e8;
 }
 
 .navLinks.nav-link.active {
@@ -42,11 +42,11 @@
 }
 
 .navLinks {
-  color: #4b749f;
+  color: #acc9e8;
 }
 
 .navLinks:visited {
-  color: #4b749f;
+  color: #acc9e8;
 }
 
 .navLinks:hover {
@@ -54,5 +54,5 @@
 }
 
 .navLinks:active {
-  color: #4b749f;
+  color: #acc9e8;
 }

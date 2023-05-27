@@ -1,6 +1,7 @@
 /* Styling for contact form */
 
 .contactForm {
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,13 +16,18 @@
   border-style: solid;
   border-color: black;
   border-radius: 5px;
-  width: 60%;
+  width: 70%;
   height: 10%;
   margin-left: auto;
   margin-right: auto;
   padding: 1%;
   margin-bottom: 2%;
 }
+
+#messageLabel {
+  margin-top: 8%;
+}
+
 #messageInput {
   border-style: solid;
   border-color: black;
@@ -31,9 +37,10 @@
   border-radius: 5px;
   height: 180px;
   margin-bottom: 2%;
+
   text-align: top;
   word-wrap: break-word;
-  width: 90%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }

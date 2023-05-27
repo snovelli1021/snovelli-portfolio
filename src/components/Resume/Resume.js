@@ -10,7 +10,7 @@ const Resume = () => {
       <Card className="resumeCard" style={{ width: "20rem" }}>
         <Card.Body>
           <Card.Text id="cardText">
-            HTML | CSS | JavaScript | jQuery | MySQL | MongoDB | Node.js |
+            HTML | CSS | JavaScript | jQuery | MySQL | Figma | Node.js |
             Express.js | React.js | Bootstrap | Git and GitHub | Heroku
           </Card.Text>
           <p>Click or tap below to download a copy</p>
