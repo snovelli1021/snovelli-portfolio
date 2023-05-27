@@ -2,12 +2,11 @@
 .bi.bi-info-square-fill {
   color: white;
   margin-left: 5px;
-  margin-top: 5px;
   position: sticky;
 }
 
 .bi-info-square-fill:hover {
-  color: rgb(42, 6, 6);
+  color: #4b749f;
 }
 
 #sidebarView {
@@ -29,11 +28,8 @@
   background-color: white;
 }
 
-#sidebarImg {
-  background-image: url("../../../public/assets/SidebarImage.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+#sidebarBody {
+  background-color: #282c34;
 }
 
 .bi:hover {
@@ -53,7 +49,7 @@
   text-align: center;
 }
 .profileLinks {
-  color: rgb(42, 6, 6);
+  color: #4b749f;
   text-decoration: bold;
   font-size: 18px;
 }

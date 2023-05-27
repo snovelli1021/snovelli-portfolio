@@ -85,7 +85,7 @@ const Contact = () => {
       />
       <div>
         <Form.Text className="text-muted">
-          Your information is private and never sharaed.
+          Your information is private and never shared.
         </Form.Text>
       </div>
       <Form.Label>Message</Form.Label>

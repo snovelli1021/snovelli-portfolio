@@ -17,7 +17,7 @@ html {
 
 .App {
   text-align: center;
-  background: linear-gradient(180deg, #4b749f 0%, #243748 25%);
+  background: linear-gradient(180deg, #acc9e8 0%, #4b749f 15%);
 }
 
 h2 {
@@ -25,12 +25,14 @@ h2 {
   color: rgb(42, 6, 6);
   text-shadow: 1px 1px rgb(159, 141, 141);
   font-weight: 900;
+  font-size: 28px;
 }
 
 h3 {
   font-family: "Michroma", sans-serif;
   color: rgb(42, 6, 6);
   text-shadow: 1px 1px rgb(159, 141, 141);
+  font-size: 24px;
 }
 
 p {
@@ -43,14 +45,16 @@ hr {
 }
 
 .card-title.h5 {
-  color: white;
+  color: #282c34;
+  font-weight: bold;
   font-style: italic;
   font-family: "Michroma", sans-serif;
+  font-size: 20px;
 }
 
 .sidebarInfo {
   position: fixed;
-  top: 10%;
+  top: 20px;
   z-index: 1100;
 }
 

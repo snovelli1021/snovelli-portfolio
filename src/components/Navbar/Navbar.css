@@ -23,6 +23,12 @@
   color: white;
 }
 
+@media screen and (max-width: 420px) {
+  #title {
+    margin-left: 10%;
+  }
+}
+
 #title:hover {
   color: #4b749f;
 }

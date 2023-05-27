@@ -32,7 +32,7 @@ function Sidebar() {
             Additional Information
           </Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body id="sidebarImg">
+        <Offcanvas.Body id="sidebarBody">
           <div>
             <p id="offcanvas-text">
               Couldn’t find what you’re looking for or want to learn more?
