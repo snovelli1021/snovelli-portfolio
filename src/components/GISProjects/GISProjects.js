@@ -6,7 +6,7 @@ import data from "./GISprjData.json";
 
 const GISProjects = () => {
   return (
-    // Cards render with data and buttons link out to GitHub repo's for UW Coding Bootcamp projects .
+    // Cards render with data and buttons link out to Storymap projects .
     <div>
       <Row xs={1} className="g-4">
         {data.map(({ id, prjPhoto, prjTitle, prjText, prjUrl }) => (
@@ -14,7 +14,7 @@ const GISProjects = () => {
             <Card.Img
               variant="top"
               className="prjPhoto"
-              alt="Screenshot of website or application"
+              alt="Screenshot of StoryMap."
               src={prjPhoto}
             />
             <Card.Body>

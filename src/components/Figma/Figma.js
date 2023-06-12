@@ -6,7 +6,7 @@ import data from "./FigmaData.json";
 
 const Figma = () => {
   return (
-    // Cards render with data and buttons link out to GitHub repo's for UW Coding Bootcamp projects .
+    // Cards render with data and buttons link out to Figma designs.
     <div>
       <Row xs={1} className="g-4">
         {data.map(({ id, prjPhoto, prjTitle, prjText, prjUrl }) => (
