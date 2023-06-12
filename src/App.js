@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import AboutMe from "./components/AboutMe/AboutMe.js";
 import Projects from "./components/Projects/Projects.js";
 import GISProjects from "./components/GISProjects/GISProjects.js";
+import Figma from "./components/Figma/Figma.js";
 import Resume from "./components/Resume/Resume.js";
 import Contact from "./components/Contact/Contact.js";
 import Footer from "./components/Footer/Footer.js";
@@ -20,16 +21,20 @@ function App() {
         <h2>Background Information</h2>
         <div id="AboutMe">{<AboutMe />}</div>
         {<Divider />}
-        {/* Need to add section for personal projects using ArcGIS API
-        and maybe a figma design. */}
+        {/* Need to add section for personal projects using ArcGIS API*/}
         <h2>UW Projects</h2>
         <br></br>
         <div id="Projects">{<Projects />}</div>
+        {<Divider />}
+        <h2>Figma Builds</h2>
+        <br></br>
+        <div id="FigmaBuilds">{<Figma />}</div>
         {<Divider />}
         <h2>ArcGIS StoryMaps</h2>
         <br></br>
         <div id="GISProjects">{<GISProjects />}</div>
         {<Divider />}
+
         <h2>View My Qualifications</h2>
         <br></br>
         <div id="Resume">{<Resume />}</div>

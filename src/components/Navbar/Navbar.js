@@ -34,11 +34,19 @@ function NavHeader() {
             </Nav.Link>
             <Nav.Link
               className="navLinks"
+              href="#FigmaBuilds"
+              onClick={closeNav}
+            >
+              Figma Builds
+            </Nav.Link>
+            <Nav.Link
+              className="navLinks"
               href="#GISProjects"
               onClick={closeNav}
             >
               ArcGIS StoryMaps
             </Nav.Link>
+
             <Nav.Link className="navLinks" href="#Resume" onClick={closeNav}>
               Resume
             </Nav.Link>
