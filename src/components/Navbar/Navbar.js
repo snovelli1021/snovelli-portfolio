@@ -29,6 +29,9 @@ function NavHeader() {
             <Nav.Link className="navLinks" href="#AboutMe" onClick={closeNav}>
               About Me
             </Nav.Link>
+            <Nav.Link className="navLinks" href="#MyApps" onClick={closeNav}>
+              My Apps
+            </Nav.Link>
             <Nav.Link className="navLinks" href="#Projects" onClick={closeNav}>
               UW Projects
             </Nav.Link>

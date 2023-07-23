@@ -3,9 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import AboutMe from "./components/AboutMe/AboutMe.js";
+import MyApps from "./components/MyApps/MyApps.js";
 import Projects from "./components/Projects/Projects.js";
-import GISProjects from "./components/GISProjects/GISProjects.js";
 import Figma from "./components/Figma/Figma.js";
+import GISProjects from "./components/GISProjects/GISProjects.js";
 import Resume from "./components/Resume/Resume.js";
 import Contact from "./components/Contact/Contact.js";
 import Footer from "./components/Footer/Footer.js";
@@ -22,6 +23,10 @@ function App() {
         <div id="AboutMe">{<AboutMe />}</div>
         {<Divider />}
         {/* Need to add section for personal projects using ArcGIS API*/}
+        <h2>My Apps</h2>
+        <br></br>
+        <div id="MyApps">{<MyApps />}</div>
+        {<Divider />}
         <h2>UW Projects</h2>
         <br></br>
         <div id="Projects">{<Projects />}</div>
@@ -34,7 +39,6 @@ function App() {
         <br></br>
         <div id="GISProjects">{<GISProjects />}</div>
         {<Divider />}
-
         <h2>View My Qualifications</h2>
         <br></br>
         <div id="Resume">{<Resume />}</div>

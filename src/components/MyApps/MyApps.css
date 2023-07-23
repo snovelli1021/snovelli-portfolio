@@ -1,0 +1,19 @@
+/* Styles for My Apps cards and Buttons. */
+
+.btn.btn-primaryGIS {
+  background-color: rgb(42, 6, 6);
+  padding: 2%;
+  border-radius: 10%;
+  border: solid;
+  border-color: white;
+  border-width: 2px;
+  --bs-btn-color: white;
+  width: auto;
+  height: auto;
+}
+
+#Blurb {
+  color: rgb(254, 254, 3);
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
