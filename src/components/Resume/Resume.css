@@ -9,9 +9,19 @@
   justify-content: space-between;
 }
 #cardText {
-  background-color: rgb(42, 6, 6);
+  color: #94bdea;
+  background-color: #3a3a3a;
   padding: 2%;
+  border: solid;
+  border-color: #94bdea;
+  border-width: 3px;
 }
+
+#resumeText {
+  font-size: 10px;
+  opacity: 0.4;
+}
+
 .downloadIcons {
   display: flex;
   justify-content: space-between;

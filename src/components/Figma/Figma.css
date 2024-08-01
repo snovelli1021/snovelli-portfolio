@@ -1,13 +1,19 @@
-/* Styles for Figma cards and buttons. */
+/* Styles for Go! button. */
 
-.btn.btn-primaryGIS {
-  background-color: rgb(42, 6, 6);
+.btn.btn-primaryGo {
+  background-color: #2a2b2b;
   padding: 2%;
   border-radius: 10%;
   border: solid;
-  border-color: white;
-  border-width: 2px;
-  --bs-btn-color: white;
+  border-color: #94bdea;
+  border-width: 3px;
+  --bs-btn-color: #94bdea;
   width: auto;
   height: auto;
+}
+
+.btn.btn-primaryGo:hover {
+  background-color: #94bdea;
+  color: #2a2b2b;
+  border-color: #94bdea;
 }

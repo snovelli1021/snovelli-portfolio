@@ -10,7 +10,12 @@ const MyApps = () => {
     <div>
       <Row xs={1} className="g-4">
         {data.map(({ id, prjPhoto, prjTitle, Blurb, prjText, prjUrl }) => (
-          <Card key={id} className="prjCard" style={{ width: "24rem" }}>
+          <Card
+            id="card"
+            key={id}
+            className="prjCard"
+            style={{ width: "24rem" }}
+          >
             <Card.Img
               variant="top"
               className="prjPhoto"
@@ -25,11 +30,12 @@ const MyApps = () => {
               <a
                 href={prjUrl}
                 target="_blank"
+                rel="noreferrer"
                 alt="Link to project repository on GitHub."
               >
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primaryGitHub"
                   fdprocessedid="f0w5kk"
                 >
                   <svg

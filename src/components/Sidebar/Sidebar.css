@@ -1,12 +1,12 @@
 /* Styling for the Sidebar and links. */
 .bi.bi-info-square-fill {
-  color: white;
+  color: #acc9e8;
   margin-left: 5px;
   position: sticky;
 }
 
 .bi-info-square-fill:hover {
-  color: #acc9e8;
+  color: #d9d9d9;
 }
 
 #sidebarView {
@@ -14,7 +14,7 @@
 }
 
 #sidebarHeader {
-  background-color: #282c34;
+  background-color: #2a2b2b;
 }
 #sidebarTitle {
   font-family: "Michroma", sans-serif;
@@ -25,11 +25,11 @@
 .btn-close {
   height: 8px;
   width: 8px;
-  background-color: white;
+  background-color: #d9d9d9;
 }
 
 #sidebarBody {
-  background-color: #282c34;
+  background-color: #2a2b2b;
 }
 
 .bi:hover {
@@ -42,7 +42,7 @@
 }
 
 #offcanvas-text {
-  color: white;
+  color: #d9d9d9;
   font-style: italic;
   font-size: 16px;
   opacity: 0.6;
@@ -55,5 +55,5 @@
 }
 
 li a:hover {
-  color: white;
+  color: #d9d9d9;
 }

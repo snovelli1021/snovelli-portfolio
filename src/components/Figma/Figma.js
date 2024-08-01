@@ -10,7 +10,12 @@ const Figma = () => {
     <div>
       <Row xs={1} className="g-4">
         {data.map(({ id, prjPhoto, prjTitle, prjText, prjUrl }) => (
-          <Card key={id} className="prjCard" style={{ width: "24rem" }}>
+          <Card
+            id="card"
+            key={id}
+            className="prjCard"
+            style={{ width: "24rem" }}
+          >
             <Card.Img
               variant="top"
               className="prjPhoto"
@@ -21,10 +26,15 @@ const Figma = () => {
               <Card.Title>{prjTitle}</Card.Title>
               <Card.Text>{prjText}</Card.Text>
 
-              <a href={prjUrl} target="_blank" alt="Link to Figma designs">
+              <a
+                href={prjUrl}
+                target="_blank"
+                rel="noreferrer"
+                alt="Link to Figma designs"
+              >
                 <button
                   type="button"
-                  className="btn btn-primaryGIS"
+                  className="btn btn-primaryGo"
                   fdprocessedid="f0w5kk"
                 >
                   Go!

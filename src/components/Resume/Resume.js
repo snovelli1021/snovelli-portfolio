@@ -13,7 +13,11 @@ const Resume = () => {
             HTML | CSS | JavaScript | jQuery | MySQL | Figma | Node.js |
             Express.js | React.js | Bootstrap | Git and GitHub | Heroku
           </Card.Text>
-          <p>Click or tap below to download a copy</p>
+          <br></br>
+          <p id="resumeText">
+            Click or tap below to download a copy of my resume
+          </p>
+          <br></br>
           <div className="downloadIcons">
             <a href="./assets/NovelliResume.docx" download>
               <button varient="top" id="msWordBtn" alt="Microsoft Word Icon" />

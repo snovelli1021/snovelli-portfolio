@@ -1,49 +1,18 @@
-/* Styles for project cards and GitHub Buttons. */
+/* Styles for GitHub buttons. */
 
-.g-4 {
-  display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-}
-
-.card-img-top {
-  float: left;
-  margin: 2%;
-  height: 110px;
-  width: 80px;
-  border-radius: 15px;
-}
-
-.prjCard {
-  display: flex;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  background: none;
-  border: none;
-  justify-content: space-between;
-}
-
-.prjPhoto {
-  height: 240px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2%;
-  border-radius: 10px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-}
-
-.btn.btn-primary {
-  background-color: rgb(42, 6, 6);
+.btn.btn-primaryGitHib {
+  background-color: #2a2b2b;
   padding: 2%;
   border-radius: 10%;
   border: solid;
-  border-color: white;
-  border-width: 2px;
-  --bs-btn-color: white;
+  border-color: #94bdea;
+  border-width: 3px;
+  --bs-btn-color: #94bdea;
+  margin-bottom: 2%;
+}
+
+.btn.btn-primaryGitHub:hover {
+  background-color: #94bdea;
+  color: #2a2b2b;
+  border-color: #94bdea;
 }

@@ -1,19 +1,27 @@
-/* Styles for My Apps cards and Buttons. */
+/* Styles for GitHub button and blurb. */
 
-.btn.btn-primaryGIS {
-  background-color: rgb(42, 6, 6);
+.btn.btn-primaryGitHub {
+  background-color: #2a2b2b;
   padding: 2%;
   border-radius: 10%;
   border: solid;
-  border-color: white;
-  border-width: 2px;
-  --bs-btn-color: white;
+  border-color: #94bdea;
+  border-width: 3px;
+  --bs-btn-color: #94bdea;
   width: auto;
   height: auto;
 }
 
 #Blurb {
+  margin-top: 10%;
+  font-size: 14px;
   color: rgb(254, 254, 3);
   font-weight: bold;
   text-shadow: 2px 2px black;
+}
+
+.btn.btn-primaryGitHub:hover {
+  background-color: #94bdea;
+  color: #2a2b2b;
+  border-color: #94bdea;
 }

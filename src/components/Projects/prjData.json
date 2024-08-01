@@ -1,7 +1,7 @@
 [
     {"id": 1,
     "prjTitle": "Password Generator" ,
-    "prjText": "The Password Generator allows a user to define input options to generate a random password string. The input values must contain between 8 and 24 characters and be made up of at least all lowercase letters, uppercase letters, numbers, special characters, or a combination of any of these four inputs.",
+    "prjText": "The Password Generator allows a user to define input options to generate a random password string between 8 and 24 characters. The password must be made up of a combination of lowercase and uppercase letters, numbers, or special characters.",
     "prjPhoto": "./assets/Project1.jpg" ,
     "prjUrl": "https://github.com/snovelli1021/PasswordGenerator" },
 

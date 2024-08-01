@@ -25,7 +25,7 @@
   margin-top: auto;
   border-style: solid;
   border-width: 2px;
-  border-color: white;
+  border-color: #94bdea;
 }
 
 /* Styling for workDiv and it's content. */
@@ -80,5 +80,5 @@
 }
 
 .text-muted {
-  color: #282c34 !important;
+  color: #d9d9d9 !important;
 }

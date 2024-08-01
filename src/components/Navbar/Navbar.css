@@ -4,13 +4,13 @@
   top: 0;
   width: 100%;
   z-index: 1100;
-  background-color: #282c34;
+  background-color: #2a2b2b;
   margin-bottom: 2%;
 }
 
 /*Styles toggler on smaller screen sizes.*/
 .navbar-toggler-icon {
-  background-color: white;
+  background-color: #94bdea;
 }
 
 .container {
@@ -20,7 +20,7 @@
 #title {
   font-family: "Michroma", sans-serif;
   font-size: 28px;
-  color: white;
+  color: #94bdea;
 }
 
 @media screen and (max-width: 420px) {
@@ -30,7 +30,7 @@
 }
 
 #title:hover {
-  color: #acc9e8;
+  color: #d9d9d9;
 }
 
 .navLinks {
@@ -38,7 +38,7 @@
 }
 
 .navLinks.nav-link.active {
-  color: white;
+  color: #d9d9d9;
 }
 
 .navLinks {
@@ -50,7 +50,7 @@
 }
 
 .navLinks:hover {
-  color: white;
+  color: #d9d9d9;
 }
 
 .navLinks:active {

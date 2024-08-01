@@ -10,7 +10,12 @@ const GISProjects = () => {
     <div>
       <Row xs={1} className="g-4">
         {data.map(({ id, prjPhoto, prjTitle, prjText, prjUrl }) => (
-          <Card key={id} className="prjCard" style={{ width: "24rem" }}>
+          <Card
+            id="card"
+            key={id}
+            className="prjCard"
+            style={{ width: "24rem" }}
+          >
             <Card.Img
               variant="top"
               className="prjPhoto"
@@ -24,11 +29,12 @@ const GISProjects = () => {
               <a
                 href={prjUrl}
                 target="_blank"
+                rel="noreferrer"
                 alt="Link to live StoryMap on the City of Everett's public facing website."
               >
                 <button
                   type="button"
-                  className="btn btn-primaryGIS"
+                  className="btn btn-primaryGo"
                   fdprocessedid="f0w5kk"
                 >
                   Go!
