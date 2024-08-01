@@ -22,7 +22,6 @@ function App() {
         <h2>Background Information</h2>
         <div id="AboutMe">{<AboutMe />}</div>
         {<Divider />}
-        {/* Need to add section for personal projects using ArcGIS API*/}
         <h2>My Apps</h2>
         <br></br>
         <div id="MyApps">{<MyApps />}</div>
