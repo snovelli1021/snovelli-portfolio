@@ -27,9 +27,10 @@
   margin-bottom: 2%;
 }
 
-.text-muted {
+.text-muted.form-text {
   font-size: 10px;
   opacity: 0.4;
+  color: red;
 }
 
 #messageLabel {
